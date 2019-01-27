@@ -18,7 +18,6 @@ def STAMP_standalone(target_series, query_series=None, subsequence_length=10, ma
 
 
 # Main function
-# Read INPUT FILE
 dataset = pd.read_csv('20170701_Mark_CSV.CSV')
 # 'values' columns
 dataset_values = dataset['values']
